@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//CODE FOR REVERSE THE ARRAY
+int main()
+{
+   int size;
+   cin>>size;
+   int a[size];
+    for (int i = 0; i <size ; ++i) {
+        cin>>a[i];
+    }
+    sort(a,a+size);
+    cout<<"MAXIMUM ELEMENT IS :"<<a[size-1]<<endl;
+    cout<<"MINIMUM ELEMENT IS :"<<a[0]<<endl;
+    return 0;
+}
