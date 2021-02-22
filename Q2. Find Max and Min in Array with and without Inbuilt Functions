@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//CODE FOR REVERSE THE ARRAY
+//CODE FOR MINIMUM AND MAXIMUM ELEMENT USING INBUILT FUNCTION
 int main()
 {
    int size;
@@ -21,7 +21,8 @@ int main()
 #include <bits/stdc++.h>
 using namespace std;
 
-//CODE FOR REVERSE THE ARRAY WITHOUT INBUILT FUNCTION
+
+//CODE FOR MINIMUM AND MAXIMUM ELEMENT WITHOUT USING INBUILT FUNCTION
 int main()
 {
    int size;
