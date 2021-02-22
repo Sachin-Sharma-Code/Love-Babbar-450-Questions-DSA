@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+//FIND Kth MINIMUM ANS MAXIMUM ELEMENT IN ARRAY
+int main() {
+    int size,k;
+    cin>>size;
+    int a[size];
+    for (int i = 0; i <size ; ++i) {
+        cin >> a[i];
+    }
+    cin>>k;
+    sort(a,a+size);
+    cout<<k<<"th"<<" "<<"MINIMUM ELEMENT IS:"<<a[k-1]<<endl;
+    cout<<k<<"th"<<" "<<"MAXIMUM ELEMENT IS:"<<a[size-k]<<endl;
+    return 0;
+}
